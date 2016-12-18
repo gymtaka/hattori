@@ -5,8 +5,12 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    <p>服部さん置き場</p>
+    <h1>MotionAIの実験</h1>
+    <link href="https://api.motion.ai/sdk/webchat.css" rel="stylesheet" type="text/css">
+<script src="https://api.motion.ai/sdk/webchat.js"></script>
+<script>
+motionAI_Init('23458?color=62a8ea&sendBtn=SEND&inputBox=Type+something...&token=2ef1fa385cadaf7f0fac4517e04ef18a',true,400,470); /* botID with access token, display bot icon?, modal width, modal height */
+/* you may also invoke motionAI_Open(); to manually open the modal */
+</script>
   </body>
 </html>
